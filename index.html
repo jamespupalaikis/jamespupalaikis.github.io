@@ -1,94 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>James Pupalaikis</title>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>James Pupalaikis</title>
+<meta name="description" content="Personal site of James Pupalaikis, machine learning engineer. Resume, projects, and contact.">
+<link rel="icon" href="media/favicon.png" type="image/png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-center" style="max-width:1400px">
-  <img class="w3-image" src="../media/ch.jpg" alt="Me" width="1300" height="400">
-  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JAMES PUPALAIKIS</h1>
-    <h5 class="w3-hide-large" style="white-space:nowrap">JAMES PUPALAIKIS</h5>
-    <h3 class="w3-hide-medium w3-hide-small">Just Some Guy</h3>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- nav, keep the same on all 3 pages -->
+<nav class="site-nav">
+  <div class="wrap-wide site-nav-inner">
+    <a class="site-nav-name" href="index.html">James Pupalaikis</a>
+    <div class="site-nav-links">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
   </div>
-  
-  <!-- Navbar (placed at the bottom of the header image) -->
-  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
-    <a href="pages/page2.html" class="w3-bar-item w3-button">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</nav>
+
+<img class="banner" src="media/ch.jpg" alt="" width="1900" height="870">
+
+<main id="main">
+
+  <header class="wrap masthead">
+    <h1>James Pupalaikis</h1>
+    <!-- fill in -->
+    <p class="tagline">Machine learning engineer. Physicist by training.</p>
+    <hr class="rule">
+  </header>
+
+  <section class="wrap section" style="padding-top:0">
+    <div class="intro">
+      <!-- swap this file whenever, markup doesn't change -->
+      <img class="portrait" src="media/1626488352486small.jpg" alt="Portrait of James Pupalaikis" width="480" height="480">
+      <div>
+        <!-- fill in -->
+        <p>I'm James. I build machine learning systems for a living, currently at
+        IBM, where most of my work is turning other people's messy data problems
+        into something that runs in production and keeps running after I've moved
+        on to the next one.</p>
+
+        <p>Before that I was a physicist, which mostly taught me to be comfortable
+        around things that don't work yet. I write mainly in Python. The parts of
+        machine learning I actually like are the ones that touch real systems and
+        real people, which tend to be the unglamorous parts.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="band">
+    <section class="wrap section">
+      <p class="eyebrow">Why does this page exist?</p>
+      <h2>A justification for its own existence</h2>
+      <hr class="rule">
+
+      <!-- fill in -->
+      <p>Reasonable question. The honest first answer is that the alternative was
+      leaving a half-finished page with a broken image sitting on this domain
+      indefinitely, and that had gone on long enough.</p>
+
+      <p>The practical answer: I wanted somewhere to keep my resume that isn't a PDF
+      decaying in someone's inbox, and somewhere to put the occasional small project
+      that has no other natural home.</p>
+
+      <p>The less practical answer is that buying a domain and pointing it at a folder
+      of hand-written HTML is one of the last genuinely simple things left on the
+      internet. No CMS, no framework, no analytics, no JavaScript. A few files served
+      exactly as they were written. I like it that way, and that's most of the reason
+      this site looks like it does.</p>
+    </section>
   </div>
-</header>
 
-<!-- Navbar on small screens -->
-<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
-<div class="w3-bar w3-light-grey">
-  <a href="pages/page2.html" class="w3-bar-item w3-button">Home</a>
-  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
-  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-</div>
-</div>
-<!-- Page content -->
-<div class="w3-content w3-padding-large w3-margin-top " id="portfolio">
+  <section class="wrap section">
+    <p class="eyebrow">Elsewhere on this site</p>
+    <h2>Where to go next</h2>
 
-  <!-- Images (Portfolio) -->
-  <!--
-  <img src="/w3images/ocean.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
-  <img src="/w3images/ocean2.jpg" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/w3images/falls2.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/w3images/mountainskies.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/w3images/mountains2.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
--->
-<h1 class = "w3-center">
-HOME
-</h1>
+    <div class="cards">
+      <a class="card" href="resume.html">
+        <span class="card-title">Resume</span>
+        <span class="card-desc">Where I've worked, what I built there, and a few
+        projects that never made it into a job description.</span>
+      </a>
 
-<p>
-<br>
-<br>
-Hi I'm James. But you knew that. I like to program, transform data, and other 
-non-computer related things. I work as a data scientist (nominally, I develop
-whatever my boss tells me to as well), but I have a passion for machine learning
-and HCI, and I someday hope to work at the forefront of AI technology. I program
-mainly in Python, but I am branching out. I do not do web development. This site is just a
-somewhere to put my resume, as well as host some stuff for socket-based projects
-or other web related stuff I may need. 
+      <a class="card" href="contact.html">
+        <span class="card-title">Contact</span>
+        <span class="card-desc">Four buttons. One of them is a joke. None of them
+        will open your mail client.</span>
+      </a>
 
-<br><br> <br><br><br>
+      <!-- check this username -->
+      <a class="card" href="https://github.com/jamespupalaikis" target="_blank" rel="noopener noreferrer">
+        <span class="card-title">GitHub</span>
+        <span class="card-desc">Code, mostly. Some of it is even finished.</span>
+      </a>
+    </div>
+  </section>
 
+</main>
 
-  <!-- Contact -->
-  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
-    <h3 class="w3-center">Contact</h3>
-    <hr>
-    <p>Don't contact me.</p>
-<!--
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" required name="Name">
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" required name="Email">
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" required name="Message">
-      </div>
-      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
-    </form><br>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-
+<!-- footer, keep the same on all 3 pages -->
+<footer class="site-footer">
+  <div class="wrap-wide">
+    <p>&copy; 2026 James Pupalaikis.</p>
+    <p>Views expressed here are my own and do not reflect those of my employer.</p>
+    <p>This site sets no cookies, runs no scripts, and collects no analytics.</p>
+    <p class="footer-fine">Banner art: <em>Calvin and Hobbes</em> &copy; Bill Watterson,
+    used here with affection and no claim of ownership. Everything else written by
+    hand in HTML and CSS.</p>
   </div>
--->
-<!-- End page content -->
-</div>
+</footer>
 
 </body>
 </html>

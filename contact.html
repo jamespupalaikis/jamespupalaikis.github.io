@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact - James Pupalaikis</title>
+<meta name="description" content="How to reach James Pupalaikis. Email, LinkedIn, GitHub.">
+<link rel="icon" href="media/favicon.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- nav, keep the same on all 3 pages -->
+<nav class="site-nav">
+  <div class="wrap-wide site-nav-inner">
+    <a class="site-nav-name" href="index.html">James Pupalaikis</a>
+    <div class="site-nav-links">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+  <section class="wrap section">
+    <p class="eyebrow">Contact</p>
+    <h1>Getting in touch</h1>
+    <hr class="rule">
+
+    <p class="lede">The buttons below are the whole page. Pick whichever one is
+    least inconvenient for you.</p>
+
+    <!-- checkbox, trigger label and dialog have to stay siblings, the css
+         uses ~ to get from one to the other -->
+    <div class="button-stack">
+
+      <input type="checkbox" id="email-dialog" class="dialog-toggle">
+
+      <label class="button-block" for="email-dialog">
+        <span class="button-label">Email</span>
+        <span class="button-desc">Shown as plain text, right here on this page.
+        Nothing will launch.</span>
+      </label>
+
+      <!-- TODO real linkedin url -->
+      <a class="button-block" href="https://www.linkedin.com/in/jamespupalaikis" target="_blank" rel="noopener noreferrer">
+        <span class="button-label">LinkedIn</span>
+        <span class="button-desc">The professional one. Updated roughly as often
+        as it needs to be.</span>
+      </a>
+
+      <a class="button-block" href="https://github.com/jamespupalaikis" target="_blank" rel="noopener noreferrer">
+        <span class="button-label">GitHub</span>
+        <span class="button-desc">Code, mostly. Some of it is even finished.</span>
+      </a>
+
+      <a class="button-block" href="index.html">
+        <span class="button-label">Visit my website</span>
+        <span class="button-desc">You are already here, but the set felt
+        incomplete without it.</span>
+      </a>
+
+      <div class="dialog-scrim">
+        <label class="dialog-close-area" for="email-dialog" aria-label="Close"></label>
+
+        <div class="dialog-card">
+          <label class="dialog-dismiss" for="email-dialog" aria-label="Close" title="Close">&times;</label>
+
+          <p class="eyebrow">Email</p>
+
+          <!-- not a mailto, on purpose -->
+          <p class="email-address">jamesppup@gmail.com</p>
+
+          <p class="dialog-note">Don't you hate when you click an email link on a
+          website and it tries to open your OS email app? What kind of psycho uses
+          that.</p>
+
+          <p class="dialog-subnote">If you use this functionality and are mad at me
+          please use the above contact to lodge a complaint.</p>
+
+          <label class="dialog-close-button" for="email-dialog">Close</label>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- footer, keep the same on all 3 pages -->
+<footer class="site-footer">
+  <div class="wrap-wide">
+    <p>&copy; 2026 James Pupalaikis.</p>
+    <p>Views expressed here are my own and do not reflect those of my employer.</p>
+    <p>This site sets no cookies, runs no scripts, and collects no analytics.</p>
+    <p class="footer-fine">Banner art: <em>Calvin and Hobbes</em> &copy; Bill Watterson,
+    used here with affection and no claim of ownership. Everything else written by
+    hand in HTML and CSS.</p>
+  </div>
+</footer>
+
+</body>
+</html>
