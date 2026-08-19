@@ -253,24 +253,6 @@ em { font-style: italic; }
   color: var(--ink-muted);
 }
 
-.intro {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
-.portrait {
-  flex: 0 0 8.5rem;
-  width: 8.5rem;
-  height: 8.5rem;
-  object-fit: cover;
-  border: 1px solid var(--rule);
-  filter: grayscale(1);
-  transition: filter 0.4s ease;
-}
-
-.portrait:hover { filter: none; }
-
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
@@ -663,17 +645,6 @@ em { font-style: italic; }
   }
 
   .site-nav-links { gap: 1.4rem; }
-
-  .intro {
-    flex-direction: column;
-    gap: 1.25rem;
-  }
-
-  .portrait {
-    flex-basis: auto;
-    width: 6.5rem;
-    height: 6.5rem;
-  }
 
   .resume-grid {
     grid-template-columns: 1fr;
